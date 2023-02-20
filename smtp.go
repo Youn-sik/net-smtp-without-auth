@@ -26,6 +26,8 @@ import (
 	"strings"
 )
 
+type any = interface{}
+
 // A Client represents a client connection to an SMTP server.
 type Client struct {
 	// Text is the textproto.Conn used by the Client. It is exported to allow for
